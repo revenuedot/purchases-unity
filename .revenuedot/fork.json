@@ -1,0 +1,16 @@
+{
+  "note": "Fork of RevenueCat's MIT SDK, maintained by RevenueDot, not affiliated with RevenueCat.",
+  "pipeline": "https://github.com/revenuedot/revenuedot/tree/main/scripts/forks",
+  "rules": "scripts/forks/rules/purchases-unity.json",
+  "rulesSha256": "a4b0d380f50eb3bed2e649461759cc3b4b4891190d88e1a1f3a605178d3ad233",
+  "upstream": {
+    "repo": "https://github.com/RevenueCat/purchases-unity",
+    "mergeBase": "12a7dece674d3187ef118d67f93785d03a866bbb"
+  },
+  "apiHost": "https://api.revenuedot.app",
+  "signingPublicKey": "gXdn2hmqR/TbdtQwK02laE0YgFz0Rtf918LICLrgZhg=",
+  "publishes": [
+    "OpenUPM com.revenuedot.purchases-unity and com.revenuedot.purchases-ui-unity (C# namespaces and assembly names unchanged)",
+    "Purchases.unitypackage on GitHub releases"
+  ]
+}

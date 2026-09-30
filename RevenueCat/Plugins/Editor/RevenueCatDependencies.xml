@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dependencies>
     <androidPackages>
-        <androidPackage spec="com.revenuecat.purchases:purchases-hybrid-common:[19.4.1]" />
+        <androidPackage spec="app.revenuedot.purchases:purchases-hybrid-common:[19.4.1]" />
         <androidPackage spec="androidx.annotation:annotation:[1.2.0]" />
     </androidPackages>
-    <remoteSwiftPackage url="https://github.com/RevenueCat/purchases-hybrid-common.git" version="19.4.1">
-        <swiftPackage name="PurchasesHybridCommon" replacesPod="PurchasesHybridCommon" />
+    <remoteSwiftPackage url="https://github.com/revenuedot/purchases-hybrid-common.git" version="19.4.1-revenuedot">
+        <swiftPackage name="PurchasesHybridCommon" replacesPod="RevenueDotPurchasesHybridCommon" />
     </remoteSwiftPackage>
     <iosPods>
-        <iosPod name="PurchasesHybridCommon" version="19.4.1" minTargetSdk="13.0"/>
+        <iosPod name="RevenueDotPurchasesHybridCommon" version="19.4.1" minTargetSdk="13.0"/>
     </iosPods>
 </dependencies>

@@ -1,15 +1,14 @@
 {
-  "name": "com.revenuecat.purchases-unity",
+  "name": "com.revenuedot.purchases-unity",
   "version": "9.11.1",
-  "displayName": "RevenueCat SDK for Unity",
-  "description": "Unity in-app purchases and subscriptions made easy. Supports iOS and Android.",
-  "documentationUrl": "https://www.revenuecat.com/docs",
-  "changelogUrl": "https://github.com/RevenueCat/purchases-unity/blob/main/CHANGELOG.md",
-  "licensesUrl": "https://github.com/RevenueCat/purchases-unity/blob/main/LICENSE",
+  "displayName": "Purchases SDK for Unity (RevenueDot fork of RevenueCat's MIT SDK)",
+  "description": "Unity in-app purchases and subscriptions made easy. Supports iOS and Android. Fork of RevenueCat's MIT SDK, maintained by RevenueDot, not affiliated with RevenueCat.",
+  "documentationUrl": "https://revenuedot.app/docs",
+  "changelogUrl": "https://github.com/revenuedot/purchases-unity/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/revenuedot/purchases-unity/blob/main/LICENSE",
   "author": {
-    "name": "RevenueCat",
-    "email": "support@revenuecat.com",
-    "url": "https://www.revenuecat.com"
+    "name": "RevenueDot",
+    "url": "https://revenuedot.app"
   },
   "keywords": [
     "unity",
@@ -20,7 +19,6 @@
     "Apple",
     "Android"
   ],
-  "repoUrl": "https://github.com/RevenueCat/purchases-unity",
-  "dependencies": {
-  }
+  "repoUrl": "https://github.com/revenuedot/purchases-unity",
+  "dependencies": {}
 }

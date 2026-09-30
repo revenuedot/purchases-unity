@@ -1,15 +1,14 @@
 {
-  "name": "com.revenuecat.purchases-ui-unity",
+  "name": "com.revenuedot.purchases-ui-unity",
   "version": "9.11.1",
-  "displayName": "RevenueCat UI SDK for Unity",
-  "description": "Unity UI components for RevenueCat paywalls and customer center. Supports iOS and Android.",
-  "documentationUrl": "https://www.revenuecat.com/docs",
-  "changelogUrl": "https://github.com/RevenueCat/purchases-unity/blob/main/CHANGELOG.md",
-  "licensesUrl": "https://github.com/RevenueCat/purchases-unity/blob/main/LICENSE",
+  "displayName": "Purchases UI SDK for Unity (RevenueDot fork of RevenueCat's MIT SDK)",
+  "description": "Unity UI components for paywalls and customer center. Supports iOS and Android. Fork of RevenueCat's MIT SDK, maintained by RevenueDot, not affiliated with RevenueCat.",
+  "documentationUrl": "https://revenuedot.app/docs",
+  "changelogUrl": "https://github.com/revenuedot/purchases-unity/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/revenuedot/purchases-unity/blob/main/LICENSE",
   "author": {
-    "name": "RevenueCat",
-    "email": "support@revenuecat.com",
-    "url": "https://www.revenuecat.com"
+    "name": "RevenueDot",
+    "url": "https://revenuedot.app"
   },
   "keywords": [
     "unity",
@@ -23,8 +22,8 @@
     "Apple",
     "Android"
   ],
-  "repoUrl": "https://github.com/RevenueCat/purchases-unity",
+  "repoUrl": "https://github.com/revenuedot/purchases-unity",
   "dependencies": {
-    "com.revenuecat.purchases-unity": "file:../RevenueCat"
+    "com.revenuedot.purchases-unity": "file:../RevenueCat"
   }
-} 
+}
