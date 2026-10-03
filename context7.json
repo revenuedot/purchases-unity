@@ -1,0 +1,27 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "RevenueDot Unity SDK",
+  "description": "RevenueDot's MIT fork of RevenueCat's Unity SDK, pointed at RevenueDot, the open-source RevenueCat alternative for in-app purchases and subscriptions.",
+  "folders": [],
+  "excludeFolders": [
+    ".circleci",
+    ".github",
+    "fastlane",
+    ".revenuedot",
+    "scripts",
+    "IntegrationTests",
+    "Subtester",
+    "e2e-tests"
+  ],
+  "excludeFiles": [
+    "CHANGELOG.md",
+    "CHANGELOG.latest.md",
+    "CHANGELOG-LATEST.md"
+  ],
+  "rules": [
+    "Install with `openupm add com.revenuedot.purchases-unity`, or from the git URL https://github.com/revenuedot/purchases-unity.git?path=RevenueCat in the Unity Package Manager.",
+    "C# namespaces and assembly names are unchanged, so `using RevenueCat;` keeps working.",
+    "RevenueDot Cloud (https://api.revenuedot.app) is the default API host. For a self-hosted server, fill the Purchases component's Proxy URL field.",
+    "Pass the app's public key from the RevenueDot dashboard to `Purchases.PurchasesConfiguration.Builder.Init`: appl_ for iOS and goog_ for Android."
+  ]
+}
