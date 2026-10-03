@@ -2,7 +2,7 @@
   "note": "Fork of RevenueCat's MIT SDK, maintained by RevenueDot, not affiliated with RevenueCat.",
   "pipeline": "https://github.com/revenuedot/revenuedot/tree/main/scripts/forks",
   "rules": "scripts/forks/rules/purchases-unity.json",
-  "rulesSha256": "10d5d25c0971ffe31bd1dbf7e8ad9856c242d2679c9dac0b5c36247664f81cc9",
+  "rulesSha256": "4e4926436ccdebe602000d37b536d44c56ad8908e515df0c8be2810b1ad27d23",
   "upstream": {
     "repo": "https://github.com/RevenueCat/purchases-unity",
     "mergeBase": "12a7dece674d3187ef118d67f93785d03a866bbb"
@@ -10,7 +10,7 @@
   "apiHost": "https://api.revenuedot.app",
   "signingPublicKey": "gXdn2hmqR/TbdtQwK02laE0YgFz0Rtf918LICLrgZhg=",
   "publishes": [
-    "OpenUPM com.revenuedot.purchases-unity and com.revenuedot.purchases-ui-unity (C# namespaces and assembly names unchanged)",
+    "OpenUPM com.revenuedot.purchases-unity (C# namespaces and assembly names unchanged); OpenUPM builds tags upm/<version>, so each release also gets that tag on the <version>-revenuedot commit. The UI package depends on the core through file:../RevenueCat and is installed from git, as upstream",
     "Purchases.unitypackage on GitHub releases"
   ]
 }
