@@ -2,7 +2,7 @@
   "note": "Fork of RevenueCat's MIT SDK, maintained by RevenueDot, not affiliated with RevenueCat.",
   "pipeline": "https://github.com/revenuedot/revenuedot/tree/main/scripts/forks",
   "rules": "scripts/forks/rules/purchases-unity.json",
-  "rulesSha256": "e7ea49969153066b3874e3591b110bfdc4b5b96620d42ade3e4860776051c0e3",
+  "rulesSha256": "f2fe9539a43f98420480cf44e6eaae4da26cc94dbb9318bbe3d12cc5c36d34c1",
   "upstream": {
     "repo": "https://github.com/RevenueCat/purchases-unity",
     "mergeBase": "12a7dece674d3187ef118d67f93785d03a866bbb"
